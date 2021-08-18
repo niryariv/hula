@@ -1,0 +1,140 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.585915,33.110933 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"ברוכים הבאים לאגמון החולה",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/01.jpg",
+      "youtube":"https://www.youtube.com/watch?v=oIFSqDHiJsE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.594339,33.107863 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"עגורים באגמון החולה",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/02.jpg",
+      "youtube":"https://www.youtube.com/watch?v=XxWF-fHy_yU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.593758,33.109599 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"עופות דורסים באגמון החולה",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/03.jpg",
+      "youtube":"https://www.youtube.com/watch?v=KcligUooyO4"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.595984,33.097227 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"חקלאות בעמק החולה",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/04.jpg",
+      "youtube":"https://www.youtube.com/watch?v=9uw8rdMix9o"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.60082,33.097031 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"יונקים באגמון החולה",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/05.jpg",
+      "youtube":"https://www.youtube.com/watch?v=hWadTpRocGw"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.611518,33.097258 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"מחפשים אוצרות בבוץ",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/06.jpg",
+      "youtube":"https://www.youtube.com/watch?v=5qCLhtBlZbg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.621471,33.102369 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"עופות מים - התאמה לחיים במים",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/07.jpg",
+      "youtube":"https://www.youtube.com/watch?v=atwzinTf14Y"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.610808,33.108267 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"דגים דגים",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/08.jpg",
+      "youtube":"https://www.youtube.com/watch?v=wHlb_F2d1kw"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.604312,33.109385 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"מינים פולשים באגמון החולה",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/09.jpg",
+      "youtube":"https://www.youtube.com/watch?v=82bYZl4RKZ0"
+    }
+  }
+]
+}

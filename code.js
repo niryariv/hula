@@ -6,14 +6,14 @@ const STYLE = {
 }
 
 const DEFAULT_ACTIVATION_RADIUS = 10; //meters
-const DEFAULT_CENTER    = [ 34.7633, 31.1182 ];
-const DEFAULT_ZOOM      = 10;
+const DEFAULT_CENTER = [35.6104, 33.104 ];
+const DEFAULT_ZOOM   = 12;
 
 const TRIGGER_GPS_ON_START       = false;
 const FLY_TO_ON_START           = false;
 
-const POI_FILE      = "./data/negev.geojson";
-const ROUTE_FILE    = "./data/negev_route.geojson";
+const POI_FILE      = "./data/poi.geojson";
+const ROUTE_FILE    = "./data/route.geojson";
 const PARKING_FILE  = "./data/parking.geojson";
 
 
