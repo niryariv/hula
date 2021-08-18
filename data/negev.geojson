@@ -1,0 +1,120 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "אנדרטת חטיבת הנגב",
+                "youtube": "https://www.youtube.com/watch?v=Iu-yn8fMaFE",
+                "image": "./data/img/negev_brigade.jpg",
+                "nav_to": [ 34.821966, 31.265984 ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.820537,
+                    31.266739
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "אנדרטת הקומנדו הצרפתי",
+                "youtube": "https://www.youtube.com/watch?v=sA1wUGSs_2I",
+                "image": "./data/img/commando_monument.jpg",
+                "hide_nav": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.820119,
+                    31.265008
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "גן אלנבי",
+                "youtube": "https://www.youtube.com/watch?v=6Lzc7Npt_Ic",
+                "image": "./data/img/allenby.jpg",
+                "nav_to": [ 34.785986, 31.243332 ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.788377,
+                    31.240726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "מצפור טלי",
+                "rotation": 270,
+                "youtube": "https://www.youtube.com/watch?v=NDrBCVc9BXM",
+                "image": "./data/img/tali.jpg",
+                "nav_to": [ 31.018429, 34.761084 ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.762302,
+                    31.017939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "מצפור הקומנדו הצרפתי",
+                "rotation": 180,
+                "youtube": "https://www.youtube.com/watch?v=OC8OJu7lla0",
+                "image": "./data/img/commando_lookout.jpg",
+                "nav_to": [ 34.723433, 30.970880 ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.721776,
+                    30.971133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "גשר הרכבת הטורקי",
+                "rotation": 180,
+                "youtube": "https://www.youtube.com/watch?v=vwBf-5Jzp3c",
+                "image": "./data/img/bridge.png",
+                "nav_to": [ 34.708760, 30.969803 ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.708349,
+                    30.969952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "בית העלמין הצבאי בקיבוץ רביבים",
+                "youtube": "https://www.youtube.com/watch?v=W9-NwkrTCqA",
+                "image": "./data/img/revivim.jpg",
+                "nav_to": [ 34.714812, 31.046947 ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.714551,
+                    31.046843
+                ]
+            }
+        }
+    ]
+}
