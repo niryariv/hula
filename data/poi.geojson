@@ -20,21 +20,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 35.594339,33.107863 ]
-    },
-    "properties": {
-      "hide_nav": true,
-      "title":"עגורים באגמון החולה",
-      "nav_lon":"",
-      "nav_lat":"",
-      "image":"./data/img/02.jpg",
-      "youtube":"https://www.youtube.com/watch?v=XxWF-fHy_yU"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 35.593758,33.109599 ]
     },
     "properties": {
@@ -42,8 +27,26 @@
       "title":"עופות דורסים באגמון החולה",
       "nav_lon":"",
       "nav_lat":"",
-      "image":"./data/img/03.jpg",
+      "image":"./data/img/02.jpg",
       "youtube":"https://www.youtube.com/watch?v=KcligUooyO4"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.594339,
+        33.107863
+      ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title": "עגורים באגמון החולה",
+      "nav_lon": "",
+      "nav_lat": "",
+      "image": "./data/img/03.jpg",
+      "youtube": "https://www.youtube.com/watch?v=XxWF-fHy_yU"
     }
   },
   {
@@ -110,21 +113,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 35.610808,33.108267 ]
-    },
-    "properties": {
-      "hide_nav": true,
-      "title":"דגים דגים",
-      "nav_lon":"",
-      "nav_lat":"",
-      "image":"./data/img/08.jpg",
-      "youtube":"https://www.youtube.com/watch?v=wHlb_F2d1kw"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 35.604312,33.109385 ]
     },
     "properties": {
@@ -132,8 +120,26 @@
       "title":"מינים פולשים באגמון החולה",
       "nav_lon":"",
       "nav_lat":"",
-      "image":"./data/img/09.jpg",
+      "image":"./data/img/08.jpg",
       "youtube":"https://www.youtube.com/watch?v=82bYZl4RKZ0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.610808,
+        33.108267
+      ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title": "דגים דגים",
+      "nav_lon": "",
+      "nav_lat": "",
+      "image": "./data/img/09.jpg",
+      "youtube": "https://www.youtube.com/watch?v=wHlb_F2d1kw"
     }
   }
 ]

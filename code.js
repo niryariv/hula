@@ -16,6 +16,7 @@ const POI_FILE      = "./data/poi.geojson";
 const ROUTE_FILE    = "./data/route.geojson";
 const PARKING_FILE  = "./data/parking.geojson";
 
+const SHOW_NAV = false
 
 
 // $(document).ready(function () {
@@ -102,6 +103,8 @@ const PARKING_FILE  = "./data/parking.geojson";
     }
 
     function set_navigation_to(poi) {
+        if (!SHOW_NAV) return false;
+
         console.log("set navigation to ", poi);
         if (typeof poi === "undefined") {
                 $("#info").hide();
