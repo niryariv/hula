@@ -5,7 +5,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 35.585915,33.110933 ]
+       "coordinates":  [ 35.590210,33.110116 ]
     },
     "properties": {
       "hide_nav": true,
@@ -14,21 +14,6 @@
       "nav_lat":"",
       "image":"./data/img/01.jpg",
       "youtube":"https://www.youtube.com/watch?v=oIFSqDHiJsE"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 35.593758,33.109599 ]
-    },
-    "properties": {
-      "hide_nav": true,
-      "title":"עופות דורסים באגמון החולה",
-      "nav_lon":"",
-      "nav_lat":"",
-      "image":"./data/img/02.jpg",
-      "youtube":"https://www.youtube.com/watch?v=KcligUooyO4"
     }
   },
   {
@@ -45,15 +30,33 @@
       "title": "עגורים באגמון החולה",
       "nav_lon": "",
       "nav_lat": "",
-      "image": "./data/img/03.jpg",
+      "image": "./data/img/02.jpg",
       "youtube": "https://www.youtube.com/watch?v=XxWF-fHy_yU"
     }
   },
   {
     "type": "Feature",
     "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.5946115,
+        33.1068445
+      ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title": "עופות דורסים באגמון החולה",
+      "nav_lon": "",
+      "nav_lat": "",
+      "image": "./data/img/03.jpg",
+      "youtube": "https://www.youtube.com/watch?v=KcligUooyO4"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
        "type": "Point",
-       "coordinates":  [ 35.595984,33.097227 ]
+       "coordinates":  [ 35.595406,33.101891 ]
     },
     "properties": {
       "hide_nav": true,
@@ -112,21 +115,6 @@
   {
     "type": "Feature",
     "geometry": {
-       "type": "Point",
-       "coordinates":  [ 35.604312,33.109385 ]
-    },
-    "properties": {
-      "hide_nav": true,
-      "title":"מינים פולשים באגמון החולה",
-      "nav_lon":"",
-      "nav_lat":"",
-      "image":"./data/img/08.jpg",
-      "youtube":"https://www.youtube.com/watch?v=82bYZl4RKZ0"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
       "type": "Point",
       "coordinates": [
         35.610808,
@@ -140,6 +128,21 @@
       "nav_lat": "",
       "image": "./data/img/09.jpg",
       "youtube": "https://www.youtube.com/watch?v=wHlb_F2d1kw"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.604312,33.109385 ]
+    },
+    "properties": {
+      "hide_nav": true,
+      "title":"מינים פולשים באגמון החולה",
+      "nav_lon":"",
+      "nav_lat":"",
+      "image":"./data/img/08.jpg",
+      "youtube":"https://www.youtube.com/watch?v=82bYZl4RKZ0"
     }
   }
 ]

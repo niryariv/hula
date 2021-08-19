@@ -16,7 +16,7 @@ const POI_FILE      = "./data/poi.geojson";
 const ROUTE_FILE    = "./data/route.geojson";
 const PARKING_FILE  = "./data/parking.geojson";
 
-const SHOW_NAV = false
+const SHOW_NAV = false;
 
 
 // $(document).ready(function () {

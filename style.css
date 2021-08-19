@@ -12,7 +12,7 @@ html, body {
     left: 0;
 }
 #info {
-    display: none;
+    /* display: none; */
     position: relative;
     z-index: 1000;
     margin: 5px auto;
@@ -24,6 +24,7 @@ html, body {
     text-align: center;
     color: #222;
     background: #fff;
+    opacity: 75%;
 }
 
 
