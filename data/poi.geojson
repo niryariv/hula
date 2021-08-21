@@ -39,8 +39,8 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        35.5946115,
-        33.1068445
+        35.595406,
+        33.101891
       ]
     },
     "properties": {
@@ -56,7 +56,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 35.595406,33.101891 ]
+       "coordinates":  [ 35.595984,33.097227 ]
     },
     "properties": {
       "hide_nav": true,
