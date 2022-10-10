@@ -1,4 +1,4 @@
-const VERSION = "v18.08.1";
+const VERSION = "v10.10.1";
 
 const STYLE = {
     'STREETS' : 'https://api.maptiler.com/maps/streets/style.json?key=cgzcpq242p8x5zNNGxpx',

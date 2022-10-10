@@ -13,7 +13,7 @@
       "nav_lon":"",
       "nav_lat":"",
       "image":"./data/img/01.jpg",
-      "youtube":"https://www.youtube.com/watch?v=oIFSqDHiJsE"
+      "youtube":"https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/welcome_to_agamon_hula_lake-late_autumn.mp4"
     }
   },
   {
@@ -27,11 +27,11 @@
     },
     "properties": {
       "hide_nav": true,
-      "title": "עגורים באגמון החולה",
+      "title": "צמחי מים באגמון החולה",
       "nav_lon": "",
       "nav_lat": "",
       "image": "./data/img/02.jpg",
-      "youtube": "https://www.youtube.com/watch?v=XxWF-fHy_yU"
+      "youtube": "https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/aquatic_plants_at_agamon_hula.mp4"
     }
   },
   {
@@ -49,7 +49,7 @@
       "nav_lon": "",
       "nav_lat": "",
       "image": "./data/img/03.jpg",
-      "youtube": "https://www.youtube.com/watch?v=KcligUooyO4"
+      "youtube": "https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/raptors_at_agamon_hula.mp4"
     }
   },
   {
@@ -64,7 +64,7 @@
       "nav_lon":"",
       "nav_lat":"",
       "image":"./data/img/04.jpg",
-      "youtube":"https://www.youtube.com/watch?v=9uw8rdMix9o"
+      "youtube":"https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/agriculture_at_hula_valley.mp4"
     }
   },
   {
@@ -79,7 +79,7 @@
       "nav_lon":"",
       "nav_lat":"",
       "image":"./data/img/05.jpg",
-      "youtube":"https://www.youtube.com/watch?v=hWadTpRocGw"
+      "youtube":"https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/mammals_at_agamon_hula.mp4"
     }
   },
   {
@@ -94,7 +94,7 @@
       "nav_lon":"",
       "nav_lat":"",
       "image":"./data/img/06.jpg",
-      "youtube":"https://www.youtube.com/watch?v=5qCLhtBlZbg"
+      "youtube":"https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/treasures_in_the_mud.mp4"
     }
   },
   {
@@ -105,11 +105,11 @@
     },
     "properties": {
       "hide_nav": true,
-      "title":"עופות מים - התאמה לחיים במים",
+      "title":"מינים פולשים באגמון החולה",
       "nav_lon":"",
       "nav_lat":"",
       "image":"./data/img/07.jpg",
-      "youtube":"https://www.youtube.com/watch?v=atwzinTf14Y"
+      "youtube":"https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/invasive_species_in_agamon_hula.mp4"
     }
   },
   {
@@ -127,7 +127,7 @@
       "nav_lon": "",
       "nav_lat": "",
       "image": "./data/img/09.jpg",
-      "youtube": "https://www.youtube.com/watch?v=wHlb_F2d1kw"
+      "youtube": "https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/fishing_fish.mp4"
     }
   },
   {
@@ -138,11 +138,11 @@
     },
     "properties": {
       "hide_nav": true,
-      "title":"מינים פולשים באגמון החולה",
+      "title":"התאמה לחיים במים",
       "nav_lon":"",
       "nav_lat":"",
       "image":"./data/img/08.jpg",
-      "youtube":"https://www.youtube.com/watch?v=82bYZl4RKZ0"
+      "youtube":"https://tourguidingmedia.s3.eu-west-3.amazonaws.com/hula/adaptations_for_aquatic_life.mp4"
     }
   }
 ]
