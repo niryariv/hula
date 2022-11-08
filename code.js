@@ -9,8 +9,10 @@ const DEFAULT_ACTIVATION_RADIUS = 10; //meters
 const DEFAULT_CENTER = [35.6104, 33.104 ];
 const DEFAULT_ZOOM   = 12;
 
-const TRIGGER_GPS_ON_START       = false;
-const FLY_TO_ON_START           = false;
+const TRIGGER_GPS_ON_START  = false;
+const FLY_TO_ON_START       = false;
+
+var LAST_GPS_TRIGGER      = false;
 
 const POI_FILE      = "./data/poi.geojson";
 const ROUTE_FILE    = "./data/route.geojson";
@@ -70,6 +72,8 @@ const SHOW_NAV = false;
 
     var _lastpos=[];
     geolocate.on('geolocate', function (l) {
+        LAST_GPS_TRIGGER = Date.now();
+
         loc = [l.coords.longitude, l.coords.latitude]
         if ((JSON.stringify(loc) == JSON.stringify(_lastpos))) {
             // user didn't move
@@ -93,7 +97,7 @@ const SHOW_NAV = false;
 
             // if user within activation radius of a POI that didn't play already, play video
             var activation_radius = poi.properties.activation_radius || DEFAULT_ACTIVATION_RADIUS;
-            console.log(poi, activation_radius);
+            // console.log(poi, activation_radius);
             if (distance <= activation_radius && POIS[i].alreadyPlayed !== true) {
                 poi.togglePopup();
                 POIS[i].alreadyPlayed = true;
@@ -164,14 +168,23 @@ const SHOW_NAV = false;
 
     map.addControl(new BaseMapControl(), 'bottom-left');
 
-    
+    // attempt to handle iPhone location update lag
+    window.onfocus = function() {
+        // console.log("focus");
+        // only run if GPS was already activated
+        if (LAST_GPS_TRIGGER != false) {
+            t = geolocate.trigger();
+            // console.log("GEOLOCATE TRIGGER:", t);
+        }
+    };
+
+
     // UI logic
     map.on('load', function(e){
 
         if (TRIGGER_GPS_ON_START) {
             geolocate.trigger();
         }
-
 
         // map.addSource('parking', {
         //     type: 'geojson',
