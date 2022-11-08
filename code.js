@@ -36,8 +36,8 @@ const SHOW_NAV = false;
         style: STYLE.STREETS,
         zoom: DEFAULT_ZOOM,
         center: DEFAULT_CENTER,
-        attributionControl: false,
-        maxBounds: [[34, 29], [36, 34]]
+        // maxBounds: [[34, 29], [36, 34]],
+        attributionControl: false
     });
 
     var POIS = [];
