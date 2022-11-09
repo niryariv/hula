@@ -9,8 +9,8 @@ const DEFAULT_ACTIVATION_RADIUS = 10; //meters
 const DEFAULT_CENTER = [35.6104, 33.104 ];
 const DEFAULT_ZOOM   = 12;
 
-const TRIGGER_GPS_ON_START  = false;
-const FLY_TO_ON_START       = false;
+const TRIGGER_GPS_ON_START  = true;
+const FLY_TO_ON_START       = true;
 
 var LAST_GPS_TRIGGER      = false;
 
