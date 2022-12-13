@@ -169,14 +169,18 @@ const SHOW_NAV = false;
     map.addControl(new BaseMapControl(), 'bottom-left');
 
     // attempt to handle iPhone location update lag
-    window.onfocus = function() {
-        // console.log("focus");
-        // only run if GPS was already activated
-        if (LAST_GPS_TRIGGER != false) {
-            t = geolocate.trigger();
-            // console.log("GEOLOCATE TRIGGER:", t);
+    addEventListener('visibilitychange', (event) => { 
+        console.log('visibility change');
+        if (document.visibilityState == "visible") {
+            console.log("visible!");
+            // window.location.reload();
+            geolocate.trigger();
+            if (document.getElementsByClassName('maplibregl-user-location-accuracy-circle').length < 1) {
+                console.log("force redraw");
+                geolocate.trigger();
+            }
         }
-    };
+    });
 
 
     // UI logic
@@ -324,29 +328,29 @@ const SHOW_NAV = false;
             })
         }
 
-        // add parking icons
-        map.loadImage('./assets/img/parking.png', function (error, image) {
-            if (error) throw error;
-            map.addImage('parking', image);
-        });
+        // // add parking icons
+        // map.loadImage('./assets/img/parking.png', function (error, image) {
+        //     if (error) throw error;
+        //     map.addImage('parking', image);
+        // });
 
-        if (typeof map.getSource('parking') === 'undefined') {
-            map.addSource('parking', {
-                type: 'geojson',
-                data: PARKING_FILE
-            })
-        }
+        // if (typeof map.getSource('parking') === 'undefined') {
+        //     map.addSource('parking', {
+        //         type: 'geojson',
+        //         data: PARKING_FILE
+        //     })
+        // }
 
-        if (typeof map.getLayer('parking') === 'undefined') {
-            map.addLayer({
-                'id': 'parking',
-                'type': 'symbol',
-                'source': 'parking',
-                'layout': {
-                    'icon-image': 'parking',
-                }
-            })
-        }
+        // if (typeof map.getLayer('parking') === 'undefined') {
+        //     map.addLayer({
+        //         'id': 'parking',
+        //         'type': 'symbol',
+        //         'source': 'parking',
+        //         'layout': {
+        //             'icon-image': 'parking',
+        //         }
+        //     })
+        // }
 
     })
 
