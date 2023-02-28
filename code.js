@@ -5,7 +5,7 @@ const STYLE = {
     'SAT': 'mapbox://styles/niryariv/cjamccmte0z492so572ynsqt1'//https://api.maptiler.com/maps/hybrid/style.json?key=cgzcpq242p8x5zNNGxpx'
 }
 
-const DEFAULT_ACTIVATION_RADIUS = 10; //meters
+const DEFAULT_ACTIVATION_RADIUS = 20; //meters
 const DEFAULT_CENTER = [35.6104, 33.104 ];
 const DEFAULT_ZOOM   = 12;
 
